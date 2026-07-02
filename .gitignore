@@ -1,0 +1,38 @@
+# --- KiCad ---
+# Lock files (per-user, regenerated on open)
+*.lck
+
+# Project-local UI state (open files, zoom level etc) - not meant to be shared
+*.kicad_prl
+
+# Autosave / backup files KiCad creates while editing
+*-bak
+*.bak
+_autosave-*
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# KiCad backup archives (Files > Archive Project) - keep these out of git,
+# git history already serves this purpose
+*.zip
+
+# Netlist/plot output if you regenerate it rather than hand-edit
+*.net
+/gerbers/
+/plot/
+/fab/
+
+# --- Editor / tooling cruft ---
+# VS Code Local History extension - duplicates what git already tracks
+.history/
+_restore_backup_*/
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Project-specific ---
+# Downloaded/vendor parts you can re-fetch - remove this line if you'd
+# rather vendor them for reproducibility
+/Downloaded Parts/
