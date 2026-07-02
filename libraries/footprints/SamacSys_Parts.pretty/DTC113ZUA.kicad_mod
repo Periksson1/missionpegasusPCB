@@ -244,7 +244,7 @@
 		(uuid "0d69b1ac-3705-4e4c-8a90-338330b64789")
 	)
 	(embedded_fonts no)
-	(model "DTC113ZUA.stp"
+	(model "${KIPRJMOD}/libraries/3dmodels/SamacSys_Parts.3dshapes/DTC113ZUA.stp"
 		(offset
 			(xyz 0 0 0)
 		)

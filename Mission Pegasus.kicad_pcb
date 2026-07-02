@@ -899,7 +899,7 @@
 			(uuid "9fc1494b-5b97-413f-8419-370c7ad76c30")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Downloaded Parts/SamacSys_Parts.3dshapes/DTC113ZUA.stp"
+		(model "${KIPRJMOD}/libraries/3dmodels/SamacSys_Parts.3dshapes/DTC113ZUA.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5507,7 +5507,7 @@
 			(uuid "c183134e-f816-4da6-8477-699424f47f9e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Downloaded Parts/SamacSys_Parts.3dshapes/7427927161.stp"
+		(model "${KIPRJMOD}/libraries/3dmodels/SamacSys_Parts.3dshapes/7427927161.stp"
 			(offset
 				(xyz 0 0 0)
 			)
