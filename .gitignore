@@ -32,7 +32,3 @@ Thumbs.db
 desktop.ini
 .DS_Store
 
-# --- Project-specific ---
-# Downloaded/vendor parts you can re-fetch - remove this line if you'd
-# rather vendor them for reproducibility
-/Downloaded Parts/

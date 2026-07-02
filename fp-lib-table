@@ -1,5 +1,6 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "RPIZERO") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty") (options "") (descr ""))
-	(lib (name "RASPBERRY_PI_ZERO_2_W") (type "KiCad") (uri "C:/Users/User/Downloads/RASPBERRY_PI_ZERO_2_W") (options "") (descr ""))
+	(lib (name "SamacSys_Parts") (type "KiCad") (uri "${KIPRJMOD}/Downloaded Parts/SamacSys_Parts.pretty") (options "") (descr ""))
+	(lib (name "SparkfunLibrary") (type "KiCad") (uri "${KIPRJMOD}/Sparkfun/SparkfunLibrary.pretty") (options "") (descr ""))
 )

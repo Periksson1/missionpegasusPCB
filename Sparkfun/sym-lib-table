@@ -1,4 +1,0 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "Qwiic_Spectral_Sensor-AS7265x-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/Qwiic_Spectral_Sensor-AS7265x-eagle-import.kicad_sym") (options "") (descr ""))
-)
