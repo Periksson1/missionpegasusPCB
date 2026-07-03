@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SamacSys_Parts") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/SamacSys_Parts.pretty") (options "") (descr ""))
+	(lib (name "SparkfunLibrary") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/SparkfunLibrary.pretty") (options "") (descr ""))
+)
