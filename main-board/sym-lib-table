@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "RASPBERRY_PI_ZERO_2_W") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/RASPBERRY_PI_ZERO_2_W.kicad_sym") (options "") (descr ""))
 	(lib (name "Qwiic_Spectral_Sensor-AS7265x-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/Qwiic_Spectral_Sensor-AS7265x-eagle-import.kicad_sym") (options "") (descr ""))
+	(lib (name "SamacSys_Parts") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/SamacSys_Parts.kicad_sym") (options "") (descr ""))
 )
