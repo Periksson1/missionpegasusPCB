@@ -624,6 +624,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Qwiic_Spectral_Sensor-AS7265x-eagle-import:AS72652"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1584,7 +1683,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:SSQ-120-04-G-D"
+		(symbol "SamacSys_Parts:1-534998-0"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1601,7 +1700,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "SSQ-120-04-G-D"
+			(property "Value" "1-534998-0"
 				(at 19.05 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1612,7 +1711,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SamacSys_Parts:SSQ-120-XX-YYY-D"
+			(property "Footprint" "SamacSys_Parts:15349980"
 				(at 19.05 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1624,7 +1723,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "http://suddendocs.samtec.com/prints/ssq-1xx-xx-xxx-x-xx-xxx-xx-x-mkt.pdf"
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534998&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1-534998-0"
 				(at 19.05 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1636,7 +1735,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "40 Position, .100&quot; Tiger Buy&trade; Socket Strip, Square Tail"
+			(property "Description" "TE Connectivity Mod IV Series 20 Way 2 Row Female Straight PCB Connector Housing"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1647,7 +1746,7 @@
 					)
 				)
 			)
-			(property "Height" ""
+			(property "Height" "6.86"
 				(at 19.05 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1659,7 +1758,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "SAMTEC"
+			(property "Manufacturer_Name" "TE Connectivity"
 				(at 19.05 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1671,7 +1770,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SSQ-120-04-G-D"
+			(property "Manufacturer_Part_Number" "1-534998-0"
 				(at 19.05 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1683,7 +1782,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "200-SSQ12004GD"
+			(property "Mouser Part Number" "571-1534998"
 				(at 19.05 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1695,7 +1794,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=200-SSQ12004GD"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1-534998-0?qs=HSGlLeu24BNCQWOVWjHQgA%3D%3D"
 				(at 19.05 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1707,7 +1806,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Part Number" "SSQ-120-04-G-D"
+			(property "Arrow Part Number" "1-534998-0"
 				(at 19.05 -894.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1719,7 +1818,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssq-120-04-g-d/samtec"
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1-534998-0/te-connectivity?region=nac"
 				(at 19.05 -994.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1731,10 +1830,10 @@
 					(justify left top)
 				)
 			)
-			(symbol "SSQ-120-04-G-D_1_1"
+			(symbol "1-534998-0_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 17.78 -50.8)
+					(end 17.78 -25.4)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1744,7 +1843,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -48.26 0)
+					(at 0 -22.86 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -1762,7 +1861,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -48.26 180)
+					(at 22.86 -22.86 180)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1780,7 +1879,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -45.72 0)
+					(at 0 -20.32 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -1798,7 +1897,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -45.72 180)
+					(at 22.86 -20.32 180)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -1816,7 +1915,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -43.18 0)
+					(at 0 -17.78 0)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -1834,7 +1933,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -43.18 180)
+					(at 22.86 -17.78 180)
 					(length 5.08)
 					(name "6"
 						(effects
@@ -1852,7 +1951,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -40.64 0)
+					(at 0 -15.24 0)
 					(length 5.08)
 					(name "7"
 						(effects
@@ -1870,7 +1969,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -40.64 180)
+					(at 22.86 -15.24 180)
 					(length 5.08)
 					(name "8"
 						(effects
@@ -1888,7 +1987,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -38.1 0)
+					(at 0 -12.7 0)
 					(length 5.08)
 					(name "9"
 						(effects
@@ -1906,7 +2005,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -38.1 180)
+					(at 22.86 -12.7 180)
 					(length 5.08)
 					(name "10"
 						(effects
@@ -1924,7 +2023,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -35.56 0)
+					(at 0 -10.16 0)
 					(length 5.08)
 					(name "11"
 						(effects
@@ -1942,7 +2041,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -35.56 180)
+					(at 22.86 -10.16 180)
 					(length 5.08)
 					(name "12"
 						(effects
@@ -1960,7 +2059,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -33.02 0)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "13"
 						(effects
@@ -1978,7 +2077,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -33.02 180)
+					(at 22.86 -7.62 180)
 					(length 5.08)
 					(name "14"
 						(effects
@@ -1996,7 +2095,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -30.48 0)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "15"
 						(effects
@@ -2014,7 +2113,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -30.48 180)
+					(at 22.86 -5.08 180)
 					(length 5.08)
 					(name "16"
 						(effects
@@ -2032,7 +2131,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -27.94 0)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "17"
 						(effects
@@ -2050,7 +2149,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -27.94 180)
+					(at 22.86 -2.54 180)
 					(length 5.08)
 					(name "18"
 						(effects
@@ -2068,7 +2167,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -25.4 0)
+					(at 0 0 0)
 					(length 5.08)
 					(name "19"
 						(effects
@@ -2086,7 +2185,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -25.4 180)
+					(at 22.86 0 180)
 					(length 5.08)
 					(name "20"
 						(effects
@@ -2096,366 +2195,6 @@
 						)
 					)
 					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 0)
-					(length 5.08)
-					(name "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -22.86 180)
-					(length 5.08)
-					(name "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 0)
-					(length 5.08)
-					(name "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -20.32 180)
-					(length 5.08)
-					(name "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 0)
-					(length 5.08)
-					(name "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -17.78 180)
-					(length 5.08)
-					(name "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -15.24 180)
-					(length 5.08)
-					(name "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -12.7 180)
-					(length 5.08)
-					(name "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -10.16 180)
-					(length 5.08)
-					(name "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -7.62 180)
-					(length 5.08)
-					(name "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -5.08 180)
-					(length 5.08)
-					(name "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -2.54 180)
-					(length 5.08)
-					(name "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5195,286 +4934,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:SSQ-120-04-G-D")
-		(at 81.28 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b2bbca6-7331-4a1c-985f-9c1bfc61e200")
-		(property "Reference" "J2"
-			(at 92.71 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SSQ-120-04-G-D"
-			(at 92.71 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:SSQ-120-XX-YYY-D"
-			(at 100.33 199.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://suddendocs.samtec.com/prints/ssq-1xx-xx-xxx-x-xx-xxx-xx-x-mkt.pdf"
-			(at 100.33 299.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "40 Position, .100&quot; Tiger Buy&trade; Socket Strip, Square Tail"
-			(at 81.28 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 100.33 499.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "SAMTEC"
-			(at 100.33 599.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SSQ-120-04-G-D"
-			(at 100.33 699.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "200-SSQ12004GD"
-			(at 100.33 799.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=200-SSQ12004GD"
-			(at 100.33 899.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "SSQ-120-04-G-D"
-			(at 100.33 999.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssq-120-04-g-d/samtec"
-			(at 100.33 1099.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "9"
-			(uuid "351d3156-ee17-479f-bbfd-e65933f20444")
-		)
-		(pin "3"
-			(uuid "d3195583-cc3e-4d68-8218-d261ec010c56")
-		)
-		(pin "26"
-			(uuid "186aff7a-f0f2-4508-a134-ef03478fc6b2")
-		)
-		(pin "11"
-			(uuid "865e0f57-bbae-4c05-9f3e-48e73228cd1f")
-		)
-		(pin "2"
-			(uuid "bec87ed1-fb1a-4f23-be1c-4f927499c230")
-		)
-		(pin "6"
-			(uuid "7052b35b-b013-4b6e-9835-31a10980142d")
-		)
-		(pin "5"
-			(uuid "bd1fce54-dae4-473a-a493-0d0e08215968")
-		)
-		(pin "19"
-			(uuid "275f8c1f-b9cb-4370-b897-2168683b116e")
-		)
-		(pin "7"
-			(uuid "3bb26c75-1631-4346-b5f1-5f1f197a190c")
-		)
-		(pin "12"
-			(uuid "d55d0495-4e88-4045-af20-0529f81015f2")
-		)
-		(pin "8"
-			(uuid "083c0959-c6bf-4063-ac9e-2467da4911d2")
-		)
-		(pin "17"
-			(uuid "4a56871a-b694-4a5d-9278-f4fb37b10acf")
-		)
-		(pin "25"
-			(uuid "900d6384-3991-494a-a859-d6579cc15a33")
-		)
-		(pin "21"
-			(uuid "308178df-34de-4588-919e-da2da6820eb7")
-		)
-		(pin "22"
-			(uuid "c8efeaf1-364e-4fde-a41d-f922b70c9adc")
-		)
-		(pin "15"
-			(uuid "cad36ac9-a3d8-4f12-bfc8-4f14081d3e4c")
-		)
-		(pin "16"
-			(uuid "0bf20a56-a06e-4f07-afe2-1662c78d85e0")
-		)
-		(pin "13"
-			(uuid "15a77b68-eb54-427f-a6e6-688f8c7f632f")
-		)
-		(pin "10"
-			(uuid "d5b933f8-1b51-4ccf-8edc-9a56d2c7cb53")
-		)
-		(pin "4"
-			(uuid "4db3e9d8-989a-4ef6-ba87-21d5271c7119")
-		)
-		(pin "1"
-			(uuid "33923eb6-283b-4c1f-a72a-ddcc68090ed1")
-		)
-		(pin "14"
-			(uuid "e03dea5e-03bb-41b9-b12c-0d65e04e8074")
-		)
-		(pin "18"
-			(uuid "b7092622-e6c3-44ad-a3a8-307f8371d3f3")
-		)
-		(pin "20"
-			(uuid "cad2a691-2bb6-46dd-a756-8b4ed9548285")
-		)
-		(pin "23"
-			(uuid "306d746c-d6d3-4fc7-bc7b-bd62ec2e2b41")
-		)
-		(pin "24"
-			(uuid "1da4895e-71c0-4391-955e-f261a814332a")
-		)
-		(pin "30"
-			(uuid "1d71d96d-b424-4022-bd3d-bb722612c908")
-		)
-		(pin "27"
-			(uuid "4945b396-9fe8-4a09-b588-cdc6fec41e90")
-		)
-		(pin "28"
-			(uuid "dce46ad5-5873-4aab-adf1-87cd63165c31")
-		)
-		(pin "33"
-			(uuid "2760329e-14a5-4f9e-b7a1-690921eecb81")
-		)
-		(pin "34"
-			(uuid "7304a001-d29a-43fe-a994-3ededba162ef")
-		)
-		(pin "39"
-			(uuid "035bab24-f0ef-46d9-8cbd-cd12610701b3")
-		)
-		(pin "36"
-			(uuid "8e1ac1a6-d97c-4423-aa2e-ad8b9ee1798a")
-		)
-		(pin "35"
-			(uuid "28e53ed9-3853-4819-9a55-44695750354f")
-		)
-		(pin "29"
-			(uuid "3767821b-97f7-4787-8786-0a4c1f8da530")
-		)
-		(pin "37"
-			(uuid "5cf44443-2992-45ba-ba4b-15fd69e28386")
-		)
-		(pin "32"
-			(uuid "150d5328-cbc7-452c-8146-4075714e0b00")
-		)
-		(pin "38"
-			(uuid "721eb921-1a2e-4a45-a364-dfce79a5e949")
-		)
-		(pin "40"
-			(uuid "565d4bca-8416-4621-b0f5-302f57650243")
-		)
-		(pin "31"
-			(uuid "faf6b1b5-6123-4e23-a327-ef22158068ea")
-		)
-		(instances
-			(project "sensorPCB"
-				(path "/1c4f14d6-6222-4843-aaf4-88e85cc8a419"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 44.45 43.18 90)
 		(unit 1)
@@ -5548,6 +5007,226 @@
 			(project "sensorPCB"
 				(path "/1c4f14d6-6222-4843-aaf4-88e85cc8a419"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:1-534998-0")
+		(at 107.95 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f1c70c8-423f-4066-b103-e04c7aaac5ef")
+		(property "Reference" "J1"
+			(at 119.38 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1-534998-0"
+			(at 119.38 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:15349980"
+			(at 127 200.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=534998&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1-534998-0"
+			(at 127 300.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "TE Connectivity Mod IV Series 20 Way 2 Row Female Straight PCB Connector Housing"
+			(at 107.95 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6.86"
+			(at 127 500.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 127 600.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1-534998-0"
+			(at 127 700.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "571-1534998"
+			(at 127 800.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1-534998-0?qs=HSGlLeu24BNCQWOVWjHQgA%3D%3D"
+			(at 127 900.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "1-534998-0"
+			(at 127 1000.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1-534998-0/te-connectivity?region=nac"
+			(at 127 1100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "6a50f21e-9771-4e91-bc28-cdcbe051cc3f")
+		)
+		(pin "17"
+			(uuid "676a5a97-ed44-4809-8ba6-f6c424484f7d")
+		)
+		(pin "11"
+			(uuid "e8a32d26-5447-4348-a0b8-ad85a5887092")
+		)
+		(pin "9"
+			(uuid "ce637efe-64ce-483a-a537-4c368be70b64")
+		)
+		(pin "14"
+			(uuid "8fdf9afd-cabd-40a1-885d-98d2c9032802")
+		)
+		(pin "7"
+			(uuid "5a013551-a461-4d3a-91c5-ca5f8df841b2")
+		)
+		(pin "6"
+			(uuid "8976fccc-3f91-4a37-8864-7dc3bcf7b042")
+		)
+		(pin "10"
+			(uuid "1b03a4e7-aa33-42a2-abb8-e3d85c8155ad")
+		)
+		(pin "12"
+			(uuid "7dbe958c-48fa-4364-8642-856da0400fd2")
+		)
+		(pin "2"
+			(uuid "39198f9f-d3e4-4126-8551-35dad61954d4")
+		)
+		(pin "5"
+			(uuid "b6430832-db84-40ac-aaa9-a0d1d4b0f1b9")
+		)
+		(pin "8"
+			(uuid "89d768f2-b930-44de-8684-9f0fe9d4361c")
+		)
+		(pin "15"
+			(uuid "a00484cf-c945-4b01-aaa4-bac984369452")
+		)
+		(pin "1"
+			(uuid "e80edb63-9ebc-4bf5-b870-0bdcd488e33f")
+		)
+		(pin "13"
+			(uuid "c454ae95-034e-479c-8c27-564c6d3089cb")
+		)
+		(pin "16"
+			(uuid "6c9cdcb6-e6f6-42c8-aed5-23bdc429fd9b")
+		)
+		(pin "19"
+			(uuid "2c0285b2-3959-4000-91b9-82790d3fa62c")
+		)
+		(pin "3"
+			(uuid "cba1ef93-05ab-43a4-83be-a6466549867b")
+		)
+		(pin "18"
+			(uuid "5d99f5f8-e9ff-4c8a-a992-ca0a9cd5a50a")
+		)
+		(pin "20"
+			(uuid "f5f15c45-578c-4228-9fe9-fb3168740c64")
+		)
+		(instances
+			(project "sensorPCB"
+				(path "/1c4f14d6-6222-4843-aaf4-88e85cc8a419"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6312,6 +5991,82 @@
 			(project "sensorPCB"
 				(path "/1c4f14d6-6222-4843-aaf4-88e85cc8a419"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c3b55e1-428a-4e1d-a4dd-3fc14f3ff44a")
+		(property "Reference" "H1"
+			(at 27.94 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 27.94 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sensorPCB"
+				(path "/1c4f14d6-6222-4843-aaf4-88e85cc8a419"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -7165,6 +6920,82 @@
 			(project "sensorPCB"
 				(path "/1c4f14d6-6222-4843-aaf4-88e85cc8a419"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2196bd5-94de-4f2f-86a8-7da0b5d9a526")
+		(property "Reference" "H2"
+			(at 27.94 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 27.94 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sensorPCB"
+				(path "/1c4f14d6-6222-4843-aaf4-88e85cc8a419"
+					(reference "H2")
 					(unit 1)
 				)
 			)
