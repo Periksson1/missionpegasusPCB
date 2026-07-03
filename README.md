@@ -22,9 +22,3 @@ mezzanine-board/     90° mezzanine KiCad project
 vendor/              Shared third-party tooling (AMS dashboard app, firmware, FTDI driver)
 ```
 
-## The 90° interface
-
-The two boards share a mating connector (2x26 2.54 mm header/socket). When
-changing anything on that connector — pinout, position, or board outline —
-update **both** boards together and check the mechanical fit in KiCad's 3D
-viewer (export STEP from each and confirm the perpendicular alignment).
