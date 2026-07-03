@@ -274,7 +274,7 @@
 	(footprint "SamacSys_Parts:AS72651BLGT"
 		(layer "F.Cu")
 		(uuid "0fecfd3e-a850-46c6-a3e0-042cdc8d328a")
-		(at 146.791 83.165)
+		(at 105.41 91.694)
 		(descr "LGA-20")
 		(tags "Integrated Circuit")
 		(property "Reference" "U3"
@@ -842,7 +842,7 @@
 	(footprint "SamacSys_Parts:SSQ-120-XX-YYY-D"
 		(layer "F.Cu")
 		(uuid "23d4ffd5-bef3-4177-b13b-ad8d302f5e81")
-		(at 171.704 92.0295)
+		(at 171.704 93.98)
 		(descr "SSQ-120-XX-YYY-D")
 		(tags "Connector")
 		(property "Reference" "J2"
@@ -1961,7 +1961,7 @@
 	(footprint "SamacSys_Parts:AS72651BLGT"
 		(layer "F.Cu")
 		(uuid "56389fd9-34c9-42ed-8bd9-c136fd5c51f8")
-		(at 154.411 83.165)
+		(at 113.792 91.948)
 		(descr "LGA-20")
 		(tags "Integrated Circuit")
 		(property "Reference" "U4"
@@ -4482,7 +4482,7 @@
 	(footprint "SamacSys_Parts:AS72651BLGT"
 		(layer "F.Cu")
 		(uuid "f82a2c56-fba3-4874-a3f3-1fd6a8dc41c0")
-		(at 139.171 83.165)
+		(at 97.254 91.582)
 		(descr "LGA-20")
 		(tags "Integrated Circuit")
 		(property "Reference" "U6"
@@ -5135,7 +5135,7 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 119.834322 78.994)
+		(start 93.218 82.042)
 		(end 175.316821 95.60057)
 		(stroke
 			(width 0.2)
