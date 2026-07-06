@@ -6030,7 +6030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2.5_H0.5mm_9774005151"
 			(at 25.4 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6959,7 +6959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2.5_H0.5mm_9774005151"
 			(at 25.4 109.22 0)
 			(hide yes)
 			(show_name no)

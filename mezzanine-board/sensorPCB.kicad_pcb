@@ -4675,13 +4675,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/3dmodels/SamacSys_Parts.3dshapes/1-534998-0.stp"
 			(offset
-				(xyz -11.43000013 1.269999962 0.4900000022)
+				(xyz -11.43 1.27 -1.51)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -5274,7 +5274,7 @@
 	(footprint "SamacSys_Parts:AS72651BLGT"
 		(layer "F.Cu")
 		(uuid "f82a2c56-fba3-4874-a3f3-1fd6a8dc41c0")
-		(at 99.06 91.948)
+		(at 99.3 91.948)
 		(descr "LGA-20")
 		(tags "Integrated Circuit")
 		(property "Reference" "U6"
@@ -5745,7 +5745,7 @@
 	(footprint "SparkfunLibrary:0603"
 		(layer "F.Cu")
 		(uuid "f9cf88c3-c5bd-4452-a4f3-7aec7f380b5e")
-		(at 169.7343 48.6933)
+		(at 135.724 61.722)
 		(descr "Generic 1608 (0603) package\n\n0.2mm courtyard excess rounded to nearest 0.05mm.")
 		(property "Reference" "C1"
 			(at 0 -0.762 0)

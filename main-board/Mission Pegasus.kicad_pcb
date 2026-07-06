@@ -3917,7 +3917,7 @@
 	(footprint "RPIZERO:RASPBERRYPI-ZERO_RPI-ZERO"
 		(layer "F.Cu")
 		(uuid "90c48f7f-70ee-4cf2-a363-470e7468943f")
-		(at 138.3075 124.4337 180)
+		(at 136.212 126.326 180)
 		(descr "Raspberry Pi board model B+, full outline with position of big connectors &amp; drill holes")
 		(property "Reference" "U7"
 			(at -27.3566 -5.72581 0)
@@ -6278,7 +6278,7 @@
 	(footprint "SparkfunLibrary:4MbFlash"
 		(layer "F.Cu")
 		(uuid "c9222810-79fc-4cfc-b9a6-d43e6fbd5b9f")
-		(at 149.4581 65.681 -90)
+		(at 209.11 93.494 -90)
 		(descr "SOIC, 0.15 inch width")
 		(property "Reference" "U2"
 			(at -3.175 0 0)
