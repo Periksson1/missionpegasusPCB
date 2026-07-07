@@ -1002,4 +1002,9 @@
 		(uuid "8d68faf0-6034-4474-be85-305c03dd69bd")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3dmodels/RaspberryPi_Zero_2W.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )
