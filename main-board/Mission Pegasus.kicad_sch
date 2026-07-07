@@ -1737,6 +1737,36 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 125.73) (xy 179.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee1c776-4070-492c-b75f-bb0457d43b0a")
+	)
+	(wire
+		(pts
+			(xy 179.07 153.67) (xy 179.07 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1132d5eb-fe12-4c5c-a89f-b57fd0df718e")
+	)
+	(wire
+		(pts
+			(xy 179.07 119.38) (xy 184.15 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168fb4b0-5483-43a3-951c-b8b848238a90")
+	)
+	(wire
+		(pts
 			(xy 191.77 31.75) (xy 203.2 31.75)
 		)
 		(stroke
@@ -1827,6 +1857,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 128.27) (xy 179.07 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580053f9-46b4-4172-908d-9c86ebab46b3")
+	)
+	(wire
+		(pts
 			(xy 149.86 44.45) (xy 153.67 44.45)
 		)
 		(stroke
@@ -1834,6 +1874,16 @@
 			(type default)
 		)
 		(uuid "58df76b9-54a0-4f66-b5fc-a85de0781e9b")
+	)
+	(wire
+		(pts
+			(xy 179.07 158.75) (xy 184.15 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c80279d-944e-4b7d-8dc0-3fd526df58b8")
 	)
 	(wire
 		(pts
@@ -1877,6 +1927,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 133.35) (xy 184.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9abcf2f4-8da3-444f-a146-03ecc034c6ee")
+	)
+	(wire
+		(pts
 			(xy 179.07 92.71) (xy 184.15 92.71)
 		)
 		(stroke
@@ -1894,6 +1954,16 @@
 			(type default)
 		)
 		(uuid "a21c9169-97c4-41b2-b66c-7b7ed063b47e")
+	)
+	(wire
+		(pts
+			(xy 179.07 119.38) (xy 179.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82aac7a-7009-4a9f-975e-3a8ac1e2894f")
 	)
 	(wire
 		(pts
@@ -1927,6 +1997,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 151.13) (xy 179.07 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1475ed-59ab-48c9-8827-fbfd21f6c58a")
+	)
+	(wire
+		(pts
 			(xy 179.07 101.6) (xy 179.07 106.68)
 		)
 		(stroke
@@ -1934,6 +2014,16 @@
 			(type default)
 		)
 		(uuid "bfe20ca3-7ed1-4f98-9b2f-6f3fdab1ad3c")
+	)
+	(wire
+		(pts
+			(xy 179.07 144.78) (xy 179.07 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c478b0e7-2918-4914-a97a-935414599ce9")
 	)
 	(wire
 		(pts
@@ -1987,6 +2077,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 153.67) (xy 179.07 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d68f2d-db14-4533-bffd-620f56b7cb77")
+	)
+	(wire
+		(pts
+			(xy 179.07 128.27) (xy 179.07 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf99a67-0cb3-4154-b757-083c1049d354")
+	)
+	(wire
+		(pts
 			(xy 165.1 101.6) (xy 179.07 101.6)
 		)
 		(stroke
@@ -2025,6 +2135,16 @@
 		)
 		(uuid "f8fc946e-f4ee-44b5-81f7-a3e1b52cc798")
 	)
+	(wire
+		(pts
+			(xy 179.07 144.78) (xy 184.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8b5892-8bd6-4b57-8f21-d688f4f6d0ad")
+	)
 	(global_label "SPI_MISO"
 		(shape input)
 		(at 130.81 44.45 180)
@@ -2046,6 +2166,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SPI_SCK"
+		(shape input)
+		(at 165.1 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "091e7a3c-3712-46dc-a1cf-b799237bf4a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.8866 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "INT"
+		(shape input)
+		(at 165.1 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09cd6b71-6ae3-4d88-a456-9bf92949c039")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.9881 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -2097,6 +2265,54 @@
 			)
 		)
 	)
+	(global_label "SPI_MOSI"
+		(shape input)
+		(at 142.24 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13575441-dcaf-4d95-a0f7-325325613d96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.6067 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI_MOSI"
+		(shape input)
+		(at 142.24 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a00f19c-86f5-4e57-9dd3-e263145ede7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.6067 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SPI_SCK"
 		(shape input)
 		(at 130.81 46.99 180)
@@ -2110,6 +2326,30 @@
 		(uuid "39f3d301-98ab-4f46-8b90-416fcae53051")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 120.0234 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CSN_EE"
+		(shape input)
+		(at 142.24 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a52edaf-1b6c-44f5-81c9-6284e01d04f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.1792 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2169,6 +2409,54 @@
 			)
 		)
 	)
+	(global_label "TX{slash}SDA"
+		(shape input)
+		(at 142.24 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fdb0e90-6004-4146-afca-c48d5d0c01d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.1791 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "INT"
+		(shape input)
+		(at 165.1 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bdb144d-4551-4ef7-9c05-a0a73e9d0fd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.9881 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RESN"
 		(shape input)
 		(at 165.1 96.52 0)
@@ -2182,6 +2470,78 @@
 		(uuid "61a1833a-efd3-4873-b152-988088a56fc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 173.0442 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RESN"
+		(shape input)
+		(at 165.1 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65be52c7-f92a-4df6-82f1-1d370139068f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.0442 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RX{slash}SCL"
+		(shape input)
+		(at 142.24 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69c1cac8-0206-4090-8a4b-195ae8e3038c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.9372 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RESN"
+		(shape input)
+		(at 165.1 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "771de8f9-3066-4b00-802e-054fac6c8343")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.0442 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2214,6 +2574,126 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SPI_MISO"
+		(shape input)
+		(at 142.24 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a99f1f4-40b6-4462-81d6-6d31b95a1e6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.6067 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI_MISO"
+		(shape input)
+		(at 142.24 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fb415a9-3044-4441-baba-495137caa512")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.6067 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TX{slash}SDA"
+		(shape input)
+		(at 142.24 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a823fe5c-d356-418d-8f44-27721ecd7735")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.1791 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RX{slash}SCL"
+		(shape input)
+		(at 142.24 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab00598b-0d12-4d5c-aca4-fa7e84e13aae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.9372 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CSN_EE"
+		(shape input)
+		(at 142.24 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0be0c57-556c-4640-8f5d-1f54a2e9e8d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.1792 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -2310,6 +2790,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SPI_SCK"
+		(shape input)
+		(at 165.1 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8941335-6cd5-48ed-a7fc-7a4cd142ebfc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.8866 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -2458,6 +2962,84 @@
 			(project "Mission Pegasus"
 				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 184.15 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e09e868-e9b6-4e6b-ac3f-a8b52ebe917c")
+		(property "Reference" "#PWR08"
+			(at 184.15 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 184.15 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 184.15 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9f28db3-39b5-4d3c-84f9-2b9633db227f")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2622,6 +3204,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 184.15 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4085081a-7519-4df2-aaa8-8d4efbe8cd8c")
+		(property "Reference" "#PWR07"
+			(at 184.15 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 184.15 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 184.15 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a12bf8b-51bc-45cf-acfd-7eee7b15bbf2")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 173.99 46.99 0)
 		(unit 1)
@@ -2695,6 +3355,196 @@
 			(project "Mission Pegasus"
 				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:FTSH-105-04-L-D-RA")
+		(at 142.24 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c4d011f-7093-4a8e-8d43-34bc8952e015")
+		(property "Reference" "J4"
+			(at 153.67 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTSH-105-04-L-D-RA"
+			(at 153.67 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:FTSH-105-XX-YYY-D-RA"
+			(at 161.29 215.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf"
+			(at 161.29 315.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "10 position, High Reliability Header Strips, 0.050&quot; pitch, Dual-Row Vertical"
+			(at 142.24 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 161.29 515.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 161.29 615.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FTSH-105-04-L-D-RA"
+			(at 161.29 715.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "200-FTSH10504LDRA"
+			(at 161.29 815.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/FTSH-105-04-L-D-RA?qs=0lQeLiL1qyZoKeXIu2UIIw%3D%3D"
+			(at 161.29 915.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "FTSH-105-04-L-D-RA"
+			(at 161.29 1015.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ftsh-105-04-l-d-ra/samtec?region=nac"
+			(at 161.29 1115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "dfe0467e-3819-4607-b86b-8b910ee37216")
+		)
+		(pin "2"
+			(uuid "1f226b99-182c-409a-8aa0-fba795357059")
+		)
+		(pin "5"
+			(uuid "2517d291-7771-4ca0-b6b4-87384b18e91e")
+		)
+		(pin "7"
+			(uuid "a2a22d1c-5870-4534-9dd0-829ec800085e")
+		)
+		(pin "1"
+			(uuid "8415b0b5-2e4d-4078-a7ad-26c0c3f92dd4")
+		)
+		(pin "8"
+			(uuid "ef6719d8-3875-43de-b6c0-d1e1684dd2f5")
+		)
+		(pin "9"
+			(uuid "bbe9b654-0f46-4ba2-b013-f95627b36a23")
+		)
+		(pin "3"
+			(uuid "c6287c46-2371-410f-96a6-8008a502d796")
+		)
+		(pin "10"
+			(uuid "ec0ec48d-7bb0-49fb-a3b6-2290f267bc67")
+		)
+		(pin "6"
+			(uuid "9517d84b-5cc1-41e4-b922-4488df722b1d")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3049,6 +3899,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 184.15 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "850ad9f0-0763-4d91-9898-301ff5e221d6")
+		(property "Reference" "#PWR026"
+			(at 184.15 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b31bec7-15fc-4d98-96a8-8b774f896caa")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 173.99 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -3120,6 +4048,84 @@
 			(project "Mission Pegasus"
 				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa932acd-a8d4-4729-93e5-8fc66b2137b0")
+		(property "Reference" "#PWR027"
+			(at 184.15 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b221b148-37c0-4d3e-8950-d4320458b1c3")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3355,6 +4361,196 @@
 			(project "Mission Pegasus"
 				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:FTSH-105-04-L-D-RA")
+		(at 142.24 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeaaef9d-2b0c-41ac-ac47-d3a14c09295a")
+		(property "Reference" "J5"
+			(at 153.67 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTSH-105-04-L-D-RA"
+			(at 153.67 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:FTSH-105-XX-YYY-D-RA"
+			(at 161.29 240.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf"
+			(at 161.29 340.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "10 position, High Reliability Header Strips, 0.050&quot; pitch, Dual-Row Vertical"
+			(at 142.24 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 161.29 540.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 161.29 640.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FTSH-105-04-L-D-RA"
+			(at 161.29 740.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "200-FTSH10504LDRA"
+			(at 161.29 840.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/FTSH-105-04-L-D-RA?qs=0lQeLiL1qyZoKeXIu2UIIw%3D%3D"
+			(at 161.29 940.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "FTSH-105-04-L-D-RA"
+			(at 161.29 1040.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ftsh-105-04-l-d-ra/samtec?region=nac"
+			(at 161.29 1140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "6d63c2de-5343-4041-8b47-45cc2bd5afea")
+		)
+		(pin "2"
+			(uuid "0f10c90f-c47d-4c93-94e3-3afb57601b44")
+		)
+		(pin "5"
+			(uuid "d3616c9a-5982-4b39-92d8-cdc2d990260b")
+		)
+		(pin "7"
+			(uuid "43a35889-e468-40c9-99e9-f79035542793")
+		)
+		(pin "1"
+			(uuid "c90d6786-05c2-4985-bf2b-1893279eaa7e")
+		)
+		(pin "8"
+			(uuid "2dacd643-9187-4ef2-b858-252be31001f7")
+		)
+		(pin "9"
+			(uuid "093c279c-aa89-4b05-a087-917f6bb8b79d")
+		)
+		(pin "3"
+			(uuid "6566ef60-d3f9-47a4-911b-a698d0088195")
+		)
+		(pin "10"
+			(uuid "02b3bfa9-6cea-414f-85cd-7dd54c3d63d4")
+		)
+		(pin "6"
+			(uuid "ec839b33-7369-44da-8bf2-1e9ecf799704")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad"
+					(reference "J5")
 					(unit 1)
 				)
 			)
