@@ -106,7 +106,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.95 0)
+			(at 0 6.096 0)
 			(layer "F.Fab")
 			(uuid "8d015a11-0d03-41e0-8bdf-20b3b62179ff")
 			(effects
@@ -766,7 +766,7 @@
 	(footprint "SamacSys_Parts:AS72651BLGT"
 		(layer "F.Cu")
 		(uuid "0fecfd3e-a850-46c6-a3e0-042cdc8d328a")
-		(at 106.689 92.055)
+		(at 106.553 92.202)
 		(descr "LGA-20")
 		(tags "Integrated Circuit")
 		(property "Reference" "U3"
@@ -1702,7 +1702,7 @@
 	(footprint "SamacSys_Parts:AS72651BLGT"
 		(layer "F.Cu")
 		(uuid "56389fd9-34c9-42ed-8bd9-c136fd5c51f8")
-		(at 114.046 92.055)
+		(at 99.187 92.202)
 		(descr "LGA-20")
 		(tags "Integrated Circuit")
 		(property "Reference" "U4"
@@ -3761,7 +3761,7 @@
 	(footprint "SparkfunLibrary:0603"
 		(layer "F.Cu")
 		(uuid "ae87704c-1708-4542-b55e-4d217c1b4c38")
-		(at 169.7343 58.4965)
+		(at 137.414 64.643)
 		(descr "Generic 1608 (0603) package\n\n0.2mm courtyard excess rounded to nearest 0.05mm.")
 		(property "Reference" "C5"
 			(at 0 -0.762 0)
@@ -3945,7 +3945,7 @@
 	(footprint "SparkfunLibrary:0603"
 		(layer "F.Cu")
 		(uuid "af08debc-f2b1-4e43-93f8-df70604b0378")
-		(at 173.9851 58.4965)
+		(at 113.284 99.568)
 		(descr "Generic 1608 (0603) package\n\n0.2mm courtyard excess rounded to nearest 0.05mm.")
 		(property "Reference" "R7"
 			(at 0 -0.762 0)
@@ -4715,7 +4715,7 @@
 	(footprint "SamacSys_Parts:AS72651BLGT"
 		(layer "F.Cu")
 		(uuid "f82a2c56-fba3-4874-a3f3-1fd6a8dc41c0")
-		(at 99.3 92.055)
+		(at 113.919 92.202)
 		(descr "LGA-20")
 		(tags "Integrated Circuit")
 		(property "Reference" "U6"
@@ -5186,7 +5186,7 @@
 	(footprint "SparkfunLibrary:0603"
 		(layer "F.Cu")
 		(uuid "f9cf88c3-c5bd-4452-a4f3-7aec7f380b5e")
-		(at 135.724 61.722)
+		(at 104.394 99.695)
 		(descr "Generic 1608 (0603) package\n\n0.2mm courtyard excess rounded to nearest 0.05mm.")
 		(property "Reference" "C1"
 			(at 0 -0.762 0)
@@ -5368,9 +5368,10 @@
 		(embedded_fonts no)
 	)
 	(footprint "SamacSys_Parts:2002131100020T4LF"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "fcfca7a1-1019-4c22-aca2-a4098afbecef")
-		(at 131.201 93.472)
+		(at 131.0894 92.9132)
 		(descr "20021311-00020T4LF-2")
 		(tags "Connector")
 		(property "Reference" "J2"
@@ -5929,13 +5930,14 @@
 		)
 	)
 	(gr_rect
-		(start 88.646 88.646)
-		(end 139.953999 95.60057)
+		(start 88.9 88.265)
+		(end 139.699999 96.266)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(fill no)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "00103be1-9f5a-422a-af34-91dabaaa9385")
 	)
