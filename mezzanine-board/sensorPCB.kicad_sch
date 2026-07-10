@@ -5,129 +5,6 @@
 	(uuid "1c4f14d6-6222-4843-aaf4-88e85cc8a419")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3145,12 +3022,6 @@
 		(uuid "07d9a43d-b236-4d18-b5ec-3f348f3e42b1")
 	)
 	(junction
-		(at 173.99 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bac3a13-3be4-4794-85f0-f0375be74e78")
-	)
-	(junction
 		(at 26.67 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3187,12 +3058,6 @@
 		(uuid "4f2b1fef-b7a7-4d6b-8c00-7a80d88badb0")
 	)
 	(junction
-		(at 166.37 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d6ef832-e74d-470a-8c64-b73b68b43c6b")
-	)
-	(junction
 		(at 227.33 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3209,12 +3074,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aabbeeee-757d-4b16-bc0b-e62cc3ab7448")
-	)
-	(junction
-		(at 52.07 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8dc1618-5f05-4ec6-b454-23b57525f754")
 	)
 	(junction
 		(at 250.19 114.3)
@@ -3369,16 +3228,6 @@
 			(type default)
 		)
 		(uuid "18a0c7ef-ef96-49ec-baa1-6eb8e17c15ef")
-	)
-	(wire
-		(pts
-			(xy 166.37 67.31) (xy 177.8 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "194abc0a-0d00-4ef7-b90e-2253658258ec")
 	)
 	(wire
 		(pts
@@ -3822,7 +3671,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 43.18) (xy 52.07 43.18)
+			(xy 48.26 43.18) (xy 74.93 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4009,16 +3858,6 @@
 			(type default)
 		)
 		(uuid "aadc2e16-f43f-4aa3-99e6-df70022a0c31")
-	)
-	(wire
-		(pts
-			(xy 173.99 69.85) (xy 177.8 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab0eec95-c44d-4bd5-8dc8-7503fd3bc259")
 	)
 	(wire
 		(pts
@@ -4269,16 +4108,6 @@
 			(type default)
 		)
 		(uuid "d2f42228-4aa9-452c-be1f-d348121407b2")
-	)
-	(wire
-		(pts
-			(xy 52.07 43.18) (xy 74.93 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3657d85-7c33-482f-80e7-549d38d4ba53")
 	)
 	(wire
 		(pts
@@ -5525,84 +5354,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 52.07 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "25b6c18f-fee8-4790-a1e8-a95e34caadd5")
-		(property "Reference" "TP1"
-			(at 50.546 44.958 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 48.514 47.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 57.15 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88487c93-0825-4614-89b7-f7c71d575d5c")
-		)
-		(instances
-			(project "sensorPCB"
-				(path "/1c4f14d6-6222-4843-aaf4-88e85cc8a419"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Qwiic_Spectral_Sensor-AS7265x-eagle-import:AS72653")
 		(at 261.62 82.55 0)
 		(unit 1)
@@ -6437,85 +6188,6 @@
 			(project "sensorPCB"
 				(path "/1c4f14d6-6222-4843-aaf4-88e85cc8a419"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 177.8 69.85 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "52a19e10-c2a3-4611-9161-f38e92d4b946")
-		(property "Reference" "TP3"
-			(at 185.674 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 182.88 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 177.8 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 177.8 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82397942-b3c9-4002-8968-ec184f21f0ed")
-		)
-		(instances
-			(project "sensorPCB"
-				(path "/1c4f14d6-6222-4843-aaf4-88e85cc8a419"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7427,7 +7099,6 @@
 		)
 		(property "Footprint" "SparkfunLibrary:0603"
 			(at 152.908 52.07 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8227,85 +7898,6 @@
 			(project "sensorPCB"
 				(path "/1c4f14d6-6222-4843-aaf4-88e85cc8a419"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 177.8 67.31 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dae89a54-3c2d-43f5-b282-05a2bd81cb98")
-		(property "Reference" "TP2"
-			(at 185.928 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 182.88 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 177.8 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 177.8 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a7dc2630-baa2-4273-81ec-537deeff16a7")
-		)
-		(instances
-			(project "sensorPCB"
-				(path "/1c4f14d6-6222-4843-aaf4-88e85cc8a419"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
