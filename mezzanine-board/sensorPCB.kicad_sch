@@ -3134,10 +3134,6 @@
 		(uuid "1b3d2d75-927d-44d6-bc99-d0ae73650160")
 	)
 	(no_connect
-		(at 66.04 54.61)
-		(uuid "48e9f6a0-f2d6-44e8-af17-c46dd40c93b7")
-	)
-	(no_connect
 		(at 232.41 90.17)
 		(uuid "72474cf0-d4ea-4968-b4c3-a372bba41eb5")
 	)
@@ -3148,6 +3144,10 @@
 	(no_connect
 		(at 232.41 49.53)
 		(uuid "cbafeff8-eb6c-426e-9424-0718517dbf0b")
+	)
+	(no_connect
+		(at 74.93 57.15)
+		(uuid "d86b59ad-1890-48be-878c-9df8656c69ec")
 	)
 	(wire
 		(pts
@@ -3318,16 +3318,6 @@
 			(type default)
 		)
 		(uuid "36222d68-a46a-41e5-b08b-2fed793eca60")
-	)
-	(wire
-		(pts
-			(xy 66.04 54.61) (xy 74.93 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37e17e48-cd46-4449-8d6a-7b39c753a44a")
 	)
 	(wire
 		(pts
@@ -3508,6 +3498,16 @@
 			(type default)
 		)
 		(uuid "60c616b5-0b08-41fa-93a9-c8cce20dbbf3")
+	)
+	(wire
+		(pts
+			(xy 60.96 54.61) (xy 74.93 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61058874-7625-4107-b993-035f996221d7")
 	)
 	(wire
 		(pts
@@ -4171,16 +4171,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 57.15) (xy 74.93 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea78013a-caaa-46e1-a555-1298c5948fde")
-	)
-	(wire
-		(pts
 			(xy 271.78 93.98) (xy 276.86 93.98)
 		)
 		(stroke
@@ -4211,7 +4201,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 57.15) (xy 53.34 57.15)
+			(xy 48.26 54.61) (xy 53.34 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6482,7 +6472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2.5_H0.5mm_9774005151"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 25.4 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6605,7 +6595,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 57.15 57.15 0)
+		(at 57.15 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6615,7 +6605,7 @@
 		(dnp no)
 		(uuid "8ace16aa-e574-4a4f-9cec-8fa4048e461e")
 		(property "Reference" "D1"
-			(at 57.15 52.578 0)
+			(at 57.15 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6625,7 +6615,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 57.15 54.61 0)
+			(at 57.15 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6635,7 +6625,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 57.658 61.214 0)
+			(at 57.658 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6645,7 +6635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 57.15 0)
+			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6656,7 +6646,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 57.15 57.15 0)
+			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6667,7 +6657,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 57.15 0)
+			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7489,7 +7479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2.5_H0.5mm_9774005151"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 25.4 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8080,7 +8070,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 48.26 57.15 0)
+		(at 48.26 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8091,7 +8081,7 @@
 		(fields_autoplaced yes)
 		(uuid "e62b078e-9792-4bf7-8b47-ba5e783123ae")
 		(property "Reference" "#PWR03"
-			(at 48.26 60.96 0)
+			(at 48.26 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8102,7 +8092,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 48.26 52.07 0)
+			(at 48.26 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8112,7 +8102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 57.15 0)
+			(at 48.26 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8123,7 +8113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 57.15 0)
+			(at 48.26 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8134,7 +8124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 48.26 57.15 0)
+			(at 48.26 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
