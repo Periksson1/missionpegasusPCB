@@ -4249,16 +4249,6 @@
 		)
 		(uuid "1131b2c9-12af-4533-baac-a35c7080bf2a")
 	)
-	(label "SLV1_RESN"
-		(at 232.41 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1204dfbc-5f52-4ba0-b509-8aca203611f4")
-	)
 	(label "SCL"
 		(at 276.86 96.52 0)
 		(effects
@@ -4328,6 +4318,16 @@
 			(justify left bottom)
 		)
 		(uuid "bcec79a3-eb64-4715-989b-fb11af0b836d")
+	)
+	(label "SLV2_RESN"
+		(at 232.41 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d50bb706-37eb-45dd-ad8e-6fbf6896937c")
 	)
 	(label "SLV1_RESN"
 		(at 232.41 34.29 180)
