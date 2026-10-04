@@ -5,6 +5,146 @@
 	(uuid "f9f36b46-b674-4b0e-858c-25c8fb94f6bf")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RASPBERRY_PI_ZERO_2_W:RASPBERRY_PI_ZERO_2_W"
 			(pin_names
 				(offset 1.016)
@@ -1454,6 +1594,12 @@
 		(uuid "329183a7-81bc-4779-bdf9-917bebd1e96a")
 	)
 	(junction
+		(at 195.58 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38b459f4-65f2-4306-8fe0-e5ac7124fcb1")
+	)
+	(junction
 		(at 176.53 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1476,6 +1622,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a76f7d0-8799-4058-9860-a33562422e28")
+	)
+	(junction
+		(at 92.71 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a4ac7b1-f119-4cc4-99e0-73cc116979b0")
 	)
 	(junction
 		(at 175.26 55.88)
@@ -1520,10 +1672,6 @@
 	(no_connect
 		(at 109.22 93.98)
 		(uuid "3370f6a8-e9d9-4379-911d-9eb2c429325a")
-	)
-	(no_connect
-		(at 170.18 68.58)
-		(uuid "355ea948-85a1-488c-b014-1a65af89d504")
 	)
 	(no_connect
 		(at 170.18 78.74)
@@ -1572,10 +1720,6 @@
 	(no_connect
 		(at 170.18 86.36)
 		(uuid "b10447e4-53f0-4f82-828c-0e3a5061ff02")
-	)
-	(no_connect
-		(at 109.22 99.06)
-		(uuid "d2a19dcf-6a04-41b2-a761-55eebfbab00e")
 	)
 	(no_connect
 		(at 170.18 99.06)
@@ -1627,6 +1771,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 99.06) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19291dd8-47fb-411a-936c-a8a0b2d8c6f8")
+	)
+	(wire
+		(pts
 			(xy 176.53 124.46) (xy 176.53 127)
 		)
 		(stroke
@@ -1634,6 +1788,26 @@
 			(type default)
 		)
 		(uuid "1cc48c0c-56da-445e-b7d1-8845636021ea")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 109.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a17bcc-7795-4e29-9d0f-64a410ec06cb")
+	)
+	(wire
+		(pts
+			(xy 209.55 76.2) (xy 217.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21167d80-f7ad-4feb-87d9-d5f9670f05ba")
 	)
 	(wire
 		(pts
@@ -1687,6 +1861,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 68.58) (xy 217.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba70669-fe4f-4309-ab4d-c96bc12ac285")
+	)
+	(wire
+		(pts
 			(xy 170.18 119.38) (xy 176.53 119.38)
 		)
 		(stroke
@@ -1717,7 +1901,27 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 71.12) (xy 109.22 71.12)
+			(xy 195.58 76.2) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48950ad3-7e41-404a-bdd4-31df915447d6")
+	)
+	(wire
+		(pts
+			(xy 67.31 109.22) (xy 73.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48950ff9-b3f7-4c96-a897-1f52fd1f3fc0")
+	)
+	(wire
+		(pts
+			(xy 68.58 71.12) (xy 109.22 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1734,16 +1938,6 @@
 			(type default)
 		)
 		(uuid "4cd6f4cc-0b16-4829-afa5-dce4e4549534")
-	)
-	(wire
-		(pts
-			(xy 96.52 68.58) (xy 109.22 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5538f539-5e4c-482c-a9f7-32226615a43d")
 	)
 	(wire
 		(pts
@@ -1777,6 +1971,46 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 99.06) (xy 92.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb01262-2ce6-4185-a9d6-51842681195a")
+	)
+	(wire
+		(pts
+			(xy 92.71 109.22) (xy 92.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66914064-c651-4855-a56d-ee161dc1f4ce")
+	)
+	(wire
+		(pts
+			(xy 195.58 68.58) (xy 201.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b40b448-e903-4f1e-b570-33e42a41e426")
+	)
+	(wire
+		(pts
+			(xy 170.18 68.58) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73be0d4b-8e98-49fc-ac9c-804c6941f0d5")
+	)
+	(wire
+		(pts
 			(xy 96.52 88.9) (xy 109.22 88.9)
 		)
 		(stroke
@@ -1784,6 +2018,16 @@
 			(type default)
 		)
 		(uuid "74a5e1b9-7263-4009-b597-a517168c3962")
+	)
+	(wire
+		(pts
+			(xy 68.58 99.06) (xy 73.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1ce083-c142-43eb-b0af-28b79b0c27a0")
 	)
 	(wire
 		(pts
@@ -1907,6 +2151,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 76.2) (xy 195.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea18453d-8402-442f-8733-4999d9267640")
+	)
+	(wire
+		(pts
 			(xy 176.53 111.76) (xy 176.53 114.3)
 		)
 		(stroke
@@ -1914,6 +2168,36 @@
 			(type default)
 		)
 		(uuid "f14a196f-c50f-4bb7-a3ae-662555779fec")
+	)
+	(wire
+		(pts
+			(xy 81.28 109.22) (xy 92.71 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9da7a98-684b-45c0-924e-0fa03b38f0d8")
+	)
+	(label "Pi RX"
+		(at 176.53 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c7432c3-559d-45a2-9159-fcae3156f54e")
+	)
+	(label "Pi TX"
+		(at 99.06 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa523cca-4e0b-48c2-8231-0df57bad4387")
 	)
 	(global_label "SPI_MOSI"
 		(shape input)
@@ -1928,6 +2212,30 @@
 		(uuid "108d21fd-88c8-4382-aa45-13d6838664a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.8867 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Sensor RX"
+		(shape input)
+		(at 68.58 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13870e13-5ca9-4370-ac8d-ee5e2190d891")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.7373 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1963,6 +2271,54 @@
 			)
 		)
 	)
+	(global_label "STACK TX"
+		(shape input)
+		(at 217.17 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4712e7ec-a174-4bb5-8a0f-ad713a2fb29d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.1056 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 68.58 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48568520-a93d-4228-bc70-2ac2586fdc98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.0267 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RESN"
 		(shape input)
 		(at 96.52 73.66 180)
@@ -1987,9 +2343,9 @@
 			)
 		)
 	)
-	(global_label "TX{slash}SDA"
+	(global_label "SCL"
 		(shape input)
-		(at 96.52 68.58 180)
+		(at 68.58 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1997,9 +2353,33 @@
 			)
 			(justify right)
 		)
-		(uuid "6c5bd7aa-0be9-4859-a2a8-3b8c759051f4")
+		(uuid "71153ce5-d6c7-4cf9-b3eb-b107ad91efed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.0768 68.58 0)
+			(at 62.0872 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "STACK RX"
+		(shape input)
+		(at 67.31 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84c4c6d1-86fd-42bd-89bf-cb297c8be80b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.072 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2032,30 +2412,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "RX{slash}SCL"
-		(shape input)
-		(at 96.52 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c8a5afe4-66aa-4a84-8ee4-897ef5c23df4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.8349 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -2104,6 +2460,188 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Sensor TX"
+		(shape input)
+		(at 217.17 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1ecd4cb-6c2c-4915-935f-1429d3e54daa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.7103 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01596802-cd1e-481c-912e-c85c9d0a8bce")
+		(property "Reference" "R6"
+			(at 204.216 65.786 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 208.026 65.786 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 205.74 70.358 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97c49ca9-a0e5-4f22-be57-f70b74d02057")
+		)
+		(pin "2"
+			(uuid "eba55bdd-986b-4a09-9baf-097e0eae8553")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad/debca828-7438-443d-8ef9-7e1fe2f0f1d0"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06a53486-cab5-4936-8e31-110af29fdd73")
+		(property "Reference" "R20"
+			(at 204.216 73.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 208.026 73.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 205.74 77.978 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5771acdc-ef18-472a-b535-a93e552ac087")
+		)
+		(pin "2"
+			(uuid "8b4f5b70-09cf-4953-ad31-17a995ee41fb")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad/debca828-7438-443d-8ef9-7e1fe2f0f1d0"
+					(reference "R20")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2887,6 +3425,164 @@
 			(project "Mission Pegasus"
 				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad/debca828-7438-443d-8ef9-7e1fe2f0f1d0"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0de1814-9150-4231-b9dc-2528b54d059c")
+		(property "Reference" "R19"
+			(at 75.946 106.426 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 79.756 106.426 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 77.47 110.998 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4252ccef-c915-4da8-9409-5f76c3362d75")
+		)
+		(pin "2"
+			(uuid "830c1528-4088-469e-a5ee-842214996330")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad/debca828-7438-443d-8ef9-7e1fe2f0f1d0"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe34b82c-9759-4496-be1a-26e80ceb6336")
+		(property "Reference" "R5"
+			(at 75.946 96.266 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 79.756 96.266 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 77.47 100.838 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "589620ea-219c-4d39-b459-9be003f63e37")
+		)
+		(pin "2"
+			(uuid "01e7f2ab-7207-4c6e-84ae-024d28747fa6")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad/debca828-7438-443d-8ef9-7e1fe2f0f1d0"
+					(reference "R5")
 					(unit 1)
 				)
 			)

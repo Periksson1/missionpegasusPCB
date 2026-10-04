@@ -1,0 +1,258 @@
+(footprint "DTC113ZUA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT SC-70 (UMT3)")
+	(tags "Transistor RET NPN")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "9d6dd405-8d03-4b09-8ea2-ac9467139dc0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DTC113ZUA"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b455c698-df7f-4456-ae52-f1454e4f4199")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fecc7fe1-b8bb-4c12-9227-f91f620db635")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "370c4117-2a5f-4266-a99e-d47cd63c00f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d49605ed-8dbe-4972-971d-f0a40fa83355")
+	)
+	(fp_line
+		(start -0.6 -0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9e94b85-8dee-41a8-a51e-606e1a4cbd7d")
+	)
+	(fp_line
+		(start 0.65 1.4)
+		(end 0.65 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a4596e5-0f32-4ce7-88fb-a0ebcb4f5dce")
+	)
+	(fp_line
+		(start 0.65 1.5)
+		(end 0.65 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d421382b-6263-4519-b91c-0ec5a0a906e0")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 0.6 -0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be928af6-947f-4120-93ac-92ee1922758a")
+	)
+	(fp_line
+		(start 1 0.2)
+		(end 1 -0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a85e432c-00fc-4400-8124-62251770752c")
+	)
+	(fp_arc
+		(start 0.65 1.4)
+		(mid 0.7 1.45)
+		(end 0.65 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b571fec1-2f1e-48d8-9a23-71d6304bb704")
+	)
+	(fp_arc
+		(start 0.65 1.5)
+		(mid 0.6 1.45)
+		(end 0.65 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8234ad10-e04e-4b36-9cc7-85ff63a1948f")
+	)
+	(fp_line
+		(start -2 -2.1)
+		(end -2 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1cfc0cab-a401-4e34-a38c-b5669c3edf28")
+	)
+	(fp_line
+		(start -2 2.1)
+		(end 2 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "26418aea-89f9-4384-9cc1-dde684360d97")
+	)
+	(fp_line
+		(start 2 -2.1)
+		(end -2 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8eafe93-97cd-4018-9945-d2f83e4d0f41")
+	)
+	(fp_line
+		(start 2 2.1)
+		(end 2 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51c944e4-f2a0-4d63-9f6e-30357153f6cb")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0785da87-bd54-4b12-bc04-627aa01330ca")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a491a71e-1607-4b3b-9252-fdf183988a38")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65ea2ac1-bba2-42db-af72-ba4ff1176eb0")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "174569ee-b214-49e6-b9b2-adf9bdfb6344")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1c7e9406-cb2c-4edc-acbc-0a6f4b25296d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.65 0.775)
+		(size 0.5 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "29815ab6-1f9a-471b-9ba6-d7b0f7a4898f")
+	)
+	(pad "2" smd rect
+		(at -0.65 0.775)
+		(size 0.5 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e4d32a55-d276-4b15-be4b-4d4fcc529d8b")
+	)
+	(pad "3" smd rect
+		(at 0 -0.775)
+		(size 0.5 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0d69b1ac-3705-4e4c-8a90-338330b64789")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3dmodels/SamacSys_Parts.3dshapes/DTC113ZUA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

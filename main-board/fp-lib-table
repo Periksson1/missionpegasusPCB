@@ -3,4 +3,5 @@
 	(lib (name "RPIZERO") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/RPIZERO.pretty") (options "") (descr ""))
 	(lib (name "SamacSys_Parts") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/SamacSys_Parts.pretty") (options "") (descr ""))
 	(lib (name "SparkfunLibrary") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/SparkfunLibrary.pretty") (options "") (descr ""))
+	(lib (name "Images") (type "KiCad") (uri "${KIPRJMOD}/Images") (options "") (descr ""))
 )

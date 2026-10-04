@@ -1949,10 +1949,6 @@
 		(uuid "3099357f-878c-41bb-a5a5-bf0ab5601625")
 	)
 	(no_connect
-		(at 97.79 67.31)
-		(uuid "315f3f4c-df03-42e3-b450-e3ad26e9c4bf")
-	)
-	(no_connect
 		(at 97.79 100.33)
 		(uuid "34f7d65d-cbd7-437d-b7b9-c0a12c52ae03")
 	)
@@ -1971,10 +1967,6 @@
 	(no_connect
 		(at 146.05 90.17)
 		(uuid "3ce4b724-dddc-4264-9a5e-91de900c2cc0")
-	)
-	(no_connect
-		(at 184.15 92.71)
-		(uuid "3da00924-83d8-4005-8081-40cd4a83f705")
 	)
 	(no_connect
 		(at 135.89 90.17)
@@ -2101,10 +2093,6 @@
 		(uuid "92eb5f27-03df-4198-b839-9177ee6bf0c5")
 	)
 	(no_connect
-		(at 135.89 92.71)
-		(uuid "93b6cfb1-15e3-426b-a013-3f5ceb02cae8")
-	)
-	(no_connect
 		(at 184.15 110.49)
 		(uuid "976232e6-eae4-4a3e-b26b-dc9292c6ce82")
 	)
@@ -2225,10 +2213,6 @@
 		(uuid "e2d2b382-f319-4c01-84ce-ebfdfb04e464")
 	)
 	(no_connect
-		(at 97.79 69.85)
-		(uuid "e325b06c-f8be-4717-9f7f-1d8c97dbfea8")
-	)
-	(no_connect
 		(at 184.15 107.95)
 		(uuid "e83b5a22-c971-43de-a39e-905ef8006d79")
 	)
@@ -2266,7 +2250,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 92.71) (xy 184.15 92.71)
+			(xy 171.45 92.71) (xy 193.04 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2356,16 +2340,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 67.31) (xy 110.49 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d1b5725-d3e6-44c7-bd70-682906520711")
-	)
-	(wire
-		(pts
 			(xy 171.45 72.39) (xy 184.15 72.39)
 		)
 		(stroke
@@ -2416,13 +2390,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 92.71) (xy 158.75 92.71)
+			(xy 87.63 69.85) (xy 110.49 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34700d8f-56bc-4b2e-a7ca-418fbcd3246d")
+		(uuid "388a1dc2-1741-48c7-8d61-384206cd40c9")
 	)
 	(wire
 		(pts
@@ -2443,6 +2417,16 @@
 			(type default)
 		)
 		(uuid "423404ce-7c41-4394-afeb-9d6bcf84804a")
+	)
+	(wire
+		(pts
+			(xy 87.63 67.31) (xy 110.49 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487ea5e8-10a3-473d-8125-9e414af1c60a")
 	)
 	(wire
 		(pts
@@ -2616,7 +2600,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 92.71) (xy 135.89 92.71)
+			(xy 123.19 92.71) (xy 139.7 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2696,6 +2680,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 92.71) (xy 158.75 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3ace23-8fc0-4142-9c0a-b0965b0f8e9f")
+	)
+	(wire
+		(pts
 			(xy 123.19 123.19) (xy 135.89 123.19)
 		)
 		(stroke
@@ -2723,16 +2717,6 @@
 			(type default)
 		)
 		(uuid "a8b11f04-3c3f-4eb4-9154-d07054845a40")
-	)
-	(wire
-		(pts
-			(xy 97.79 69.85) (xy 110.49 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acfa59c5-89d5-4cd4-868a-a48ccbf2e734")
 	)
 	(wire
 		(pts
@@ -3074,16 +3058,6 @@
 		)
 		(uuid "14bc78b0-c75d-47bb-a8b6-89e7d70d6095")
 	)
-	(label "5V_PERM"
-		(at 97.79 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c643a9f-a1e6-4d11-a8e0-342095f7c90d")
-	)
 	(label "DS_B"
 		(at 179.07 125.73 0)
 		(effects
@@ -3254,16 +3228,6 @@
 		)
 		(uuid "4daf1265-8494-4d6c-93d8-cb8c418eadcb")
 	)
-	(label "UART_A_UP"
-		(at 97.79 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51c6cbe7-d785-4072-99fb-80b9bbfbca94")
-	)
 	(label "UART_B_DN"
 		(at 125.73 69.85 0)
 		(effects
@@ -3314,16 +3278,6 @@
 		)
 		(uuid "5e2ac01b-23d5-4b19-b0a0-8075cc44c58e")
 	)
-	(label "5V_PERM"
-		(at 146.05 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e3ec96f-0263-4902-93e3-88e6fc9e3687")
-	)
 	(label "UART_C_UP"
 		(at 97.79 77.47 0)
 		(effects
@@ -3363,26 +3317,6 @@
 			(justify left bottom)
 		)
 		(uuid "75cf9be5-2835-4eea-9322-7671c0cab452")
-	)
-	(label "5V_PERM"
-		(at 176.53 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "810318ca-08ce-46c2-984b-2b5592be3bd0")
-	)
-	(label "UART_A_DN"
-		(at 97.79 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8249c4f8-669f-4a51-87e9-62c3302d73c2")
 	)
 	(label "PWR_7"
 		(at 177.8 107.95 0)
@@ -3443,16 +3377,6 @@
 			(justify left bottom)
 		)
 		(uuid "961491f3-2977-45d1-91b7-10cca97945c3")
-	)
-	(label "5V_PERM"
-		(at 128.27 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "967bda74-e165-4d27-838e-a754979f4eb1")
 	)
 	(label "PWR_13"
 		(at 177.8 72.39 0)
@@ -3744,6 +3668,54 @@
 		)
 		(uuid "ff98250c-23b8-42fb-951b-8fe35e66e5a2")
 	)
+	(global_label "STACK RX"
+		(shape input)
+		(at 87.63 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24c4f671-49da-47e4-8a09-075b4ad9885d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.392 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "STACK TX"
+		(shape input)
+		(at 87.63 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90044be7-f4e2-48be-950f-de5786a3b059")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.6944 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x26_Odd_Even")
 		(at 115.57 92.71 0)
@@ -3969,6 +3941,84 @@
 			(project "Mission Pegasus"
 				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad/e07a1047-ea89-48fa-86ce-7f1c5092db28"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 193.04 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70146cfc-16dc-4e1a-81cd-7b4ed87854fc")
+		(property "Reference" "#PWR07"
+			(at 193.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 193.04 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 193.04 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ca968e3-0216-441a-9c03-ee53c25ece39")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad/e07a1047-ea89-48fa-86ce-7f1c5092db28"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4206,6 +4256,84 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 139.7 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c7d3850-eede-41ab-8e53-47047a5c133d")
+		(property "Reference" "#PWR04"
+			(at 139.7 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 139.7 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 139.7 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58ddb4b5-fbe3-4d4a-9b33-788f66827a0f")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad/e07a1047-ea89-48fa-86ce-7f1c5092db28"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 82.55 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -4355,6 +4483,84 @@
 			(project "Mission Pegasus"
 				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad/e07a1047-ea89-48fa-86ce-7f1c5092db28"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 142.24 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddadbee1-7fd6-45f8-90e6-c0b0ba7c7e60")
+		(property "Reference" "#PWR05"
+			(at 142.24 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 142.24 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 142.24 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bddcc14-29a5-4576-ae7a-9da2d336afde")
+		)
+		(instances
+			(project "Mission Pegasus"
+				(path "/fb9a0d12-1a67-4c58-8886-d99a184dd4ad/e07a1047-ea89-48fa-86ce-7f1c5092db28"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)

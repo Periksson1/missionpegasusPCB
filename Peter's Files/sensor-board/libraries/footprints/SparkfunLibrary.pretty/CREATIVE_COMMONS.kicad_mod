@@ -1,0 +1,94 @@
+(footprint "CREATIVE_COMMONS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Creative Commons License Template\n\nCC BY-SA 4.0 License with https://creativecommons.org/licenses/by-sa/4.0/ link to license and placeholder for designer name.\n\nDevices using:\n\n• FRAME_LEDGER\n• FRAME_LETTER")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0396864b-551f-4a35-85df-bb35eb5e5d78")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "FRAME-LETTER"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "649878ae-af6e-402d-b5c5-81de5bae98a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7af177ba-c9c8-4973-b2a5-a62c62c2364f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f3bf6f0-f73f-461f-b549-e06dfd74d38c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "Released under the Creative Commons Attribution Share-Alike 4.0 License"
+		(at -20.32 -5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b01dd8b0-2a90-44e5-a616-78af4d47ab03")
+		(effects
+			(font
+				(size 1.63576 1.63576)
+				(thickness 0.14224)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user " https://creativecommons.org/licenses/by-sa/4.0/"
+		(at 0 -2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0eedbb2d-85fb-4a4a-8537-863f04cfca72")
+		(effects
+			(font
+				(size 1.63576 1.63576)
+				(thickness 0.14224)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Designed by:"
+		(at 11.43 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c96e7085-dce2-41a9-ab71-219e8d0d1744")
+		(effects
+			(font
+				(size 1.63576 1.63576)
+				(thickness 0.14224)
+			)
+			(justify left bottom)
+		)
+	)
+	(embedded_fonts no)
+)

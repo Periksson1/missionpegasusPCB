@@ -1,0 +1,81 @@
+# encoding: utf-8
+# 2026 R1
+SetScriptVersion(Version="26.1.174")
+Save(Overwrite=True)
+template1 = GetTemplate(
+    TemplateName="Modal",
+    Solver="ANSYS")
+system1 = template1.CreateSystem()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath="C:/Users/User/Projects/missionpegasusPCB/CAD/PCBAssemblyFEA.stp")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+Save(Overwrite=True)
+geometry1.Exit()
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.CreateMaterial(Name="Fr")
+matl1.DisplayName = "FR4_PCB"
+matlProp1 = matl1.CreateProperty(
+    Name="Density",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp1.SetData(
+    SheetName="Density",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=-1,
+    Variables=["Density"],
+    Values=[["1944 [kg m^-3]"]])
+matlProp2 = matl1.CreateProperty(
+    Name="Elasticity",
+    Behavior="Isotropic",
+    Qualifiers={"Definition": "", "Behavior": "Isotropic"})
+matlProp2.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Isotropic", "Derive from": "Young's Modulus and Poisson's Ratio"},
+    Index=-1,
+    Variables=["Young's Modulus"],
+    Values=[["44370000000 [Pa]"]])
+matlProp2.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Isotropic", "Derive from": "Young's Modulus and Poisson's Ratio"},
+    Variables=["Poisson's Ratio"],
+    Values=[["0.165"]])
+matl1.Description = "PCB Material"
+matl2 = engineeringData1.CreateMaterial(Name="Brass ")
+matl2 = engineeringData1.CreateMaterial(Name="Brass")
+matlProp3 = matl2.CreateProperty(
+    Name="Density",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp3.SetData(
+    SheetName="Density",
+    SheetQualifiers={"Definition": "", "Behavior": ""},
+    Index=-1,
+    Variables=["Density"],
+    Values=[["8530 [kg m^-3]"]])
+matlProp4 = matl2.CreateProperty(
+    Name="Elasticity",
+    Behavior="Isotropic",
+    Qualifiers={"Definition": "", "Behavior": "Isotropic"})
+matlProp4.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Isotropic", "Derive from": "Young's Modulus and Poisson's Ratio"},
+    Index=-1,
+    Variables=["Young's Modulus"],
+    Values=[["100000000000 [Pa]"]])
+matlProp4.SetData(
+    SheetName="Elasticity",
+    SheetQualifiers={"Definition": "", "Behavior": "Isotropic", "Derive from": "Young's Modulus and Poisson's Ratio"},
+    Variables=["Poisson's Ratio"],
+    Values=[["0.375"]])
+matl2.DisplayName = "Brass bracket"
+matl3 = engineeringData1.CreateMaterial(Name="Brass standoff")
+matlProp5 = matl3.CreateProperty(
+    Name="Elasticity",
+    Behavior="Isotropic",
+    Qualifiers={"Definition": "", "Behavior": "Isotropic"})
+matl2.DisplayName = "Brass"
+matl3.Delete()
+matl4 = engineeringData1.CreateMaterial(Name="Phosphor Bronze (contact)")
+matl4.Delete()
