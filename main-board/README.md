@@ -3,6 +3,8 @@
 KiCad design for the Raspberry Pi Zero carrier and stack interface in the
 Mission Pegasus two-board assembly.
 
+[View the schematic PDF](../output/pdf/main-board-schematic.pdf).
+
 ## Opening the project
 
 Use **KiCad 10.0 or newer** and open

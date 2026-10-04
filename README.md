@@ -7,6 +7,16 @@ and an AMS AS7265x spectral sensor board, designed to mate at 90°. The reposito
 includes schematics, PCB layouts, custom component libraries, mechanical CAD,
 modal-analysis project files, and bills of materials.
 
+## PDF schematics
+
+Browse the current schematics without installing KiCad:
+
+- [Main-board schematic (PDF)](output/pdf/main-board-schematic.pdf) - Raspberry Pi, stack interface, programming, and sensor connectors.
+- [Sensor-board schematic (PDF)](output/pdf/sensor-board-schematic.pdf) - AS7265x sensors, flash, and board connector.
+
+These are vector PDF exports of the current board schematics. Zoom in for pin
+labels and component values. Regenerate the PDFs whenever the source schematics change.
+
 ## 3D CAD previews
 
 These views are rendered from the KiCad PCB files and their associated 3D models.

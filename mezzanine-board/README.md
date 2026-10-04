@@ -3,6 +3,8 @@
 Spectral sensor daughterboard for the perpendicular Mission Pegasus assembly.
 The KiCad project already contains a schematic and PCB layout.
 
+[View the schematic PDF](../output/pdf/sensor-board-schematic.pdf).
+
 ## Opening the project
 
 Use **KiCad 10.0 or newer** and open [`sensorPCB.kicad_pro`](sensorPCB.kicad_pro).
