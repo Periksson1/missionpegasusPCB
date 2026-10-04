@@ -1,29 +1,42 @@
-# Mezzanine board (90°)
+# Mission Pegasus mezzanine sensor board
 
-Daughterboard that mates **perpendicular** to the Mission Pegasus main board
-via the shared 2x26 (2.54 mm) stack connector.
+Spectral sensor daughterboard for the perpendicular Mission Pegasus assembly.
+The KiCad project already contains a schematic and PCB layout.
 
-> Status: not started — create the KiCad project into this folder (see below).
+## Opening the project
 
-## Creating the project
+Use **KiCad 10.0 or newer** and open [`sensorPCB.kicad_pro`](sensorPCB.kicad_pro).
+See the [root README](../README.md) for cloning the current `main` branch.
+Keep the project's `libraries/` directory alongside the design files; custom
+library registrations use `${KIPRJMOD}` paths. Standard KiCad libraries are also
+needed.
 
-1. In KiCad: **File → New Project…**
-2. Save it **inside this `mezzanine-board/` folder** (e.g. `Mezzanine.kicad_pro`).
-   Keep "Create a new folder" **unchecked** so the files land here directly.
-3. Custom parts go in the pre-made `libraries/` subfolders:
-   - `libraries/footprints/` (`.pretty`)
-   - `libraries/symbols/` (`.kicad_sym`)
-   - `libraries/3dmodels/` (`.3dshapes`)
-   Register them in this project's `fp-lib-table` / `sym-lib-table` using
-   `${KIPRJMOD}/libraries/...` paths so the board stays self-contained.
+## Files and references
 
-## The 90° mating interface
+| Path | Purpose |
+|---|---|
+| `sensorPCB.kicad_pro` | KiCad project settings |
+| `sensorPCB.kicad_sch` | Sensor-board schematic |
+| `sensorPCB.kicad_pcb` | Sensor-board PCB layout |
+| `fp-lib-table`, `sym-lib-table` | Custom library registrations |
+| `libraries/` | Custom symbols, footprints, and 3D models |
+| `sensorPCBBOM.csv` | Saved sensor-board BOM |
+| `sensorboard*.step` | Mechanical exports |
+| `sensorboard2/`, `sensorboard3/`, `sensorboard5/` | CAD parts and assemblies |
 
-- Use the **same connector part and pinout** as the main board's stack
-  interface (see `../main-board/StackInterface.kicad_sch`). Pin 1 must meet
-  pin 1.
-- For the right-angle mate, typically one board carries a **right-angle**
-  header and the other a vertical socket. Decide which side is which.
-- Match the **connector position and board outline** so the boards align
-  physically. Verify by exporting STEP from both boards and checking the
-  perpendicular fit in a 3D view.
+## Mating interface
+
+Review the [main-board stack schematic](../main-board/StackInterface.kicad_sch)
+and both current board schematics when checking the connector pinout. The
+[draft interface notes](../MEZZANINE_INTERFACE.md) contain incomplete assignments;
+they are not a verified wiring specification.
+
+Confirm pin-1 orientation, matching signal assignments, connector placement,
+and clearance in the perpendicular assembly. Assembly CAD is in
+[`../CAD/`](../CAD/).
+
+## Design status
+
+Schematic, PCB, BOM, and mechanical files are present. Manufacturing, assembly,
+and electrical test results are not documented. The [BOM](sensorPCBBOM.csv) and
+CAD exports should be checked against the chosen PCB revision before use.

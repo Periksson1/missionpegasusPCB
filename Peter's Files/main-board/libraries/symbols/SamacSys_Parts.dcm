@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 7427927161
+D WE-CBF SMT EMI Suppression Ferrite Bead Size 0402; Z @ 100MHz = 600 ; Zmax = 1300  @ 300 MHz; IR = 250 mA; RDC = 0.56 
+K
+F https://www.we-online.com/catalog/datasheet/7427927161.pdf
+$ENDCMP
+#
+#End Doc Library

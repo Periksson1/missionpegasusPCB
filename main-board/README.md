@@ -1,43 +1,48 @@
-# Mission Pegasus PCB
+# Mission Pegasus main board
 
-KiCad design for the Mission Pegasus board — a Raspberry Pi Zero based
-carrier with an AMS AS7265x spectral sensor front end.
+KiCad design for the Raspberry Pi Zero carrier and stack interface in the
+Mission Pegasus two-board assembly.
 
 ## Opening the project
 
-Open `Mission Pegasus.kicad_pro` in KiCad (10.0 or newer).
+Use **KiCad 10.0 or newer** and open
+[`Mission Pegasus.kicad_pro`](Mission%20Pegasus.kicad_pro).
+See the [root README](../README.md) for cloning the current `main` branch.
 
-## Layout
+## Files and references
 
-```
-Mission Pegasus.kicad_pro / .sch / .pcb   Main project (open this)
-RPI0.kicad_sch                            Sub-sheet: Raspberry Pi Zero
-StackInterface.kicad_sch                  Sub-sheet: stack / GPIO interface
-fp-lib-table, sym-lib-table               Project-local library registrations
+| Path | Purpose |
+|---|---|
+| `Mission Pegasus.kicad_pro` | KiCad project settings |
+| `Mission Pegasus.kicad_sch` | Root schematic |
+| `Mission Pegasus.kicad_pcb` | PCB layout |
+| `RPI0.kicad_sch` | Raspberry Pi Zero schematic sub-sheet |
+| `StackInterface.kicad_sch` | Stack/GPIO interface sub-sheet |
+| `fp-lib-table`, `sym-lib-table` | Project-local library registrations |
+| `libraries/` | Custom footprints, symbols, and 3D models |
+| `docs/` | Datasheets, component notes, ordering paperwork, and reference block diagram |
+| `Mission PegasusBOM.csv` | Saved board BOM |
+| `Images/` | Project artwork |
+| `mainboard*.step`, `mainboard6/` | Mechanical exports and CAD files |
 
-libraries/                                All custom parts libraries
-├── footprints/   *.pretty                Footprint libraries
-├── symbols/      *.kicad_sym             Symbol libraries
-└── 3dmodels/     *.3dshapes              3D models (STEP)
+Custom library tables use `${KIPRJMOD}` paths. Keep the libraries with the
+project and install the standard KiCad libraries. Third-party dashboard software,
+firmware, and drivers are in [`../vendor/`](../vendor/).
 
-docs/                                     Documentation & manufacturing
-├── datasheets/                           AS7265x datasheets / app notes
-├── Components.docx                       Component notes
-├── Mission Pegasus.csv                   BOM
-├── Order Request form.xlsx              Ordering paperwork
-└── block_diagram.kicad_sch              Reference block diagram (not in build)
+## Interface and status
 
-vendor/                                   Third-party tooling (reference only)
-└── AS7265x DashBoard Software/           AMS dashboard app, firmware, FTDI driver
-```
+See the [stack schematic](StackInterface.kicad_sch) and
+[draft mezzanine interface notes](../MEZZANINE_INTERFACE.md). The notes still have
+incomplete pin assignments and must be checked against the current schematics.
 
-All library and 3D-model paths are project-relative (`${KIPRJMOD}`), so the
-repo is self-contained — clone it anywhere and it opens without missing files.
+Schematic and PCB design files are present. Manufacturing and electrical test
+results are not documented. Check the [BOM](Mission%20PegasusBOM.csv) and mechanical
+exports against the selected revision before using them for fabrication.
 
 ## Note on library symbols
 
-The symbols cached in the schematics (AS72652 / AS72653 / RASPBERRY_PI_ZERO_2_W)
-are the authoritative, complete versions and match the PCB. The library copies
-are older/incomplete. **Do not run _Tools → Update Symbols from Library_** on
-these parts — it would pull the incomplete library version into the schematic
-and break connectivity.
+The symbols cached in the schematics (`AS72652`, `AS72653`, and
+`RASPBERRY_PI_ZERO_2_W`) are the authoritative, complete versions described by this
+project's existing documentation. The library copies are older/incomplete.
+**Do not run Tools → Update Symbols from Library on these parts** without first
+reconciling the definitions; replacing them can break connectivity.
