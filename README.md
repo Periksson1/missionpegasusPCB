@@ -7,6 +7,24 @@ and an AMS AS7265x spectral sensor board, designed to mate at 90°. The reposito
 includes schematics, PCB layouts, custom component libraries, mechanical CAD,
 modal-analysis project files, and bills of materials.
 
+## 3D CAD previews
+
+These views are rendered from the KiCad PCB files and their associated 3D models.
+
+### Main board
+
+![Main-board 3D CAD view with Raspberry Pi Zero and stack connector](docs/images/main-board-3d.png)
+
+[Open the main-board project](main-board/Mission%20Pegasus.kicad_pro).
+
+### Sensor board
+
+![Sensor-board 3D CAD view showing the spectral sensor components](docs/images/sensor-board-3d.png)
+
+[Open the sensor-board project](mezzanine-board/sensorPCB.kicad_pro).
+For the mechanical assembly, see the [STEP export](CAD/PCBAssemblyFEA.stp)
+and [Inventor CAD files](CAD/).
+
 ## Current design and status
 
 The current design is on **[`main`](https://github.com/Periksson1/missionpegasusPCB/tree/main)**.
