@@ -9,8 +9,8 @@ modal-analysis project files, and bills of materials.
 
 ## Current design and status
 
-The latest uploaded design is on **[`UART-board`](https://github.com/Periksson1/missionpegasusPCB/tree/UART-board)**.
-GitHub's default branch is currently `main`; select `UART-board` to see this version.
+The current design is on **[`main`](https://github.com/Periksson1/missionpegasusPCB/tree/main)**.
+This is the default branch shown when you open the repository on GitHub.
 
 Both boards have KiCad schematics and PCB layouts. CAD assemblies and an ANSYS
 modal-analysis project are included. Manufacturing, assembly, electrical test,
@@ -23,7 +23,7 @@ these files does not establish that the hardware has been validated.
 2. Clone the current design:
 
    ```sh
-   git clone --branch UART-board https://github.com/Periksson1/missionpegasusPCB.git
+   git clone --branch main https://github.com/Periksson1/missionpegasusPCB.git
    cd missionpegasusPCB
    ```
 

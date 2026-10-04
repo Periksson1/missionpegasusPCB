@@ -7,7 +7,7 @@ Mission Pegasus two-board assembly.
 
 Use **KiCad 10.0 or newer** and open
 [`Mission Pegasus.kicad_pro`](Mission%20Pegasus.kicad_pro).
-See the [root README](../README.md) for cloning the current `UART-board` branch.
+See the [root README](../README.md) for cloning the current `main` branch.
 
 ## Files and references
 

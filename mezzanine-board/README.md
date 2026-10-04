@@ -6,7 +6,7 @@ The KiCad project already contains a schematic and PCB layout.
 ## Opening the project
 
 Use **KiCad 10.0 or newer** and open [`sensorPCB.kicad_pro`](sensorPCB.kicad_pro).
-See the [root README](../README.md) for cloning the current `UART-board` branch.
+See the [root README](../README.md) for cloning the current `main` branch.
 Keep the project's `libraries/` directory alongside the design files; custom
 library registrations use `${KIPRJMOD}` paths. Standard KiCad libraries are also
 needed.
